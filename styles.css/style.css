@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;500;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.habits {
+  height: 100vh;
+  background-color: black;
+  padding: 3em;
+}
+.habits__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.habits__title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.habits__title h1 {
+  margin-top: 0.25em;
+  font-family: "Inter", sans-serif;
+  font-family: 900;
+  font-size: 3em;
+}
+.habits__color {
+  display: flex;
+  flex-direction: row;
+}
+.habits__color .black {
+  background-color: #18181B;
+  color: #18181B;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__color .purple1 {
+  background-color: #6D28D9;
+  color: #6D28D9;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__color .purple2 {
+  background-color: #5B21B6;
+  color: #5B21B6;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__color .purple3 {
+  background-color: #8B5CF6;
+  color: #8B5CF6;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__color .purple4 {
+  background-color: #7C3AED;
+  color: #7C3AED;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__color .purple5 {
+  background-color: #8B5CF6;
+  color: #8B5CF6;
+  height: 1em;
+  width: 1em;
+  border-radius: 0.25em;
+  margin-right: 0.25em;
+}
+.habits__button button {
+  background-color: black;
+  border: 1px solid #6D28D9;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+.habits__button button:hover {
+  cursor: pointer;
+}
+.habits__button--color {
+  color: #8B5CF6;
+  font-weight: 900;
+  margin-right: 0.75em;
+}/*# sourceMappingURL=style.css.map */

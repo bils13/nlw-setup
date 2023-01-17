@@ -1,0 +1,8 @@
+@mixin colors ($bg-color) {
+    background-color: $bg-color;
+    color: $bg-color;
+    height: 1em;
+    width: 1em;
+    border-radius: 0.25em;
+    margin-right: 0.25em;
+}
