@@ -1,63 +1,66 @@
-.habits {
+body {
     height: 100vh;
+    width: 100vw;
     background-color: $colorPattern;
     padding: 3em;
-    &__header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__title {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        h1 {
-            margin-top: 0.25em;
-            font-family: $fonte;
-            font-family: 900;
-            font-size: 3em;
+    .habits {
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-    }
-    &__color {
-        display: flex;;
-        flex-direction: row;
-        .black {
-            @include colors(#18181B);
-        }
-        .purple1 {
-            @include colors(#6D28D9);
-        }
-        .purple2 {
-            @include colors(#5B21B6);
-        }
-        .purple3 {
-            @include colors(#8B5CF6);
-        }
-        .purple4 {
-            @include colors(#7C3AED);
-        }
-        .purple5 {
-            @include colors(#8B5CF6);
-        }
-    }
-    &__button {
-        button {
-            background-color: $colorPattern;
-            border: 1px solid $colorBorderButtons;
-            color: white;   
-            font-family: $fonte;
-            font-weight: 500;
-            font-size: 1em;
-            padding: 1em 1.5em;
-            border-radius: 0.5em;
-            &:hover {
-                cursor: pointer;
+        &__title {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            h1 {
+                margin-top: 0.25em;
+                font-family: $fonte;
+                font-family: 900;
+                font-size: 3em;
             }
         }
-        &--color {
-            color: $colorHabits;
-            font-weight: 900;
-            margin-right: 0.75em;
+        &__color {
+            display: flex;;
+            flex-direction: row;
+            .black {
+                @include colors(#18181B);
+            }
+            .purple1 {
+                @include colors(#6D28D9);
+            }
+            .purple2 {
+                @include colors(#5B21B6);
+            }
+            .purple3 {
+                @include colors(#8B5CF6);
+            }
+            .purple4 {
+                @include colors(#7C3AED);
+            }
+            .purple5 {
+                @include colors(#8B5CF6);
+            }
+        }
+        &__button {
+            button {
+                background-color: $colorPattern;
+                border: 1px solid $colorBorderButtons;
+                color: white;   
+                font-family: $fonte;
+                font-weight: 500;
+                font-size: 1em;
+                padding: 1em 1.5em;
+                border-radius: 0.5em;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            &--color {
+                color: $colorHabits;
+                font-weight: 900;
+                margin-right: 0.75em;
+            }
         }
     }
 }

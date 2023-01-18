@@ -6,3 +6,8 @@
     border-radius: 0.25em;
     margin-right: 0.25em;
 }
+
+@mixin pseudo {
+    background-color: #8B5CF6;
+    border-color: #A78BFA;
+}
